@@ -1,0 +1,15 @@
+{
+	"name": "biome-config",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check --write",
+		"reporter": "biome check --reporter=summary"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
+}
