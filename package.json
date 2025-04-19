@@ -1,16 +1,30 @@
 {
-	"name": "biome-config",
+	"name": "@junizi0408/biome-config",
+	"description": "A biome config for junizi0408 projects",
 	"version": "1.0.0",
-	"main": "index.js",
+	"author": "junizi0408",
+	"main": "biome.jsonc",
+	"files": ["biome.jsonc", "package.json", "README.md"],
+	"keywords": ["biome", "config"],
 	"license": "MIT",
 	"scripts": {
 		"format": "biome format --write",
 		"lint": "biome lint --write",
 		"check": "biome check --write",
-		"reporter": "biome check --reporter=summary"
+		"reporter": "biome check --reporter=summary",
+		"changeset": "changeset",
+		"version-packages": "changeset version",
+		"publish-packages": "changeset publish"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
+		"@changesets/cli": "^2.29.2",
 		"lefthook": "1.11.10"
+	},
+	"peerDependencies": {
+		"@biomejs/biome": "1.9.4"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
