@@ -150,7 +150,6 @@
 				"noVoidElementsWithChildren": "error",
 				"noVoidTypeReturn": "error",
 				"useArrayLiterals": "error",
-				// TODO : Need to check some hooks such as `usePreservedCallback` are stableResult or not.
 				"useExhaustiveDependencies": "error",
 				"useHookAtTopLevel": "error",
 				"useImportExtensions": "off",
