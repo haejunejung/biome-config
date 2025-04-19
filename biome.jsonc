@@ -91,6 +91,13 @@
 				"useRegexLiterals": "error",
 				"useSimpleNumberKeys": "error",
 				"useSimplifiedLogicExpression": "error"
+			},
+			"performance": {
+				"noBarrelFile": "off",
+				"noAccumulatingSpread": "error",
+				"noDelete": "error",
+				"noReExportAll": "error",
+				"useTopLevelRegex": "error"
 			}
 		}
 	},
