@@ -98,6 +98,11 @@
 				"noDelete": "error",
 				"noReExportAll": "error",
 				"useTopLevelRegex": "error"
+			},
+			"security": {
+				"noDangerouslySetInnerHtml": "error",
+				"noDangerouslySetInnerHtmlWithChildren": "error",
+				"noGlobalEval": "error"
 			}
 		}
 	},
